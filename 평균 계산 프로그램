@@ -1,0 +1,19 @@
+#define _CRT_SECURE_NO_WARNINGS
+#include <stdio.h>
+
+int main(void)
+{
+	float i, j, k;
+	printf("3개의 실수를 입력하시오: ");
+	scanf("%f", &i);
+	scanf("%f", &j);
+	scanf("%f", &k);
+	//scanf("%f""%f""%f", &i, &j, &k); 써도 됨
+
+	printf("합게 = %.4f", (float)i + j + k);
+	printf("평균 = %.4f", (float)(i + j + k) / 3);
+	// %.숫자는 몇째자리 숫자까지 표시할지 정하는거
+	//(float)는 뒤에 수식을 실수형으로 바꿔줌
+	
+	return 0;
+}
