@@ -1,0 +1,16 @@
+#define _CRT_SECURE_NO_WARNINGS
+#include <stdio.h>
+
+int main(void)
+
+{
+	int i, j, sum;
+	printf("첫번째 숫자를 입력하시오: ");
+	scanf("%d", &i);
+	printf("두번째 숫자를 입력하시오: ");
+	scanf("%d", &j);
+	sum = i + j;
+	printf("두수의 합: %d", sum);
+
+	return 0;
+}
