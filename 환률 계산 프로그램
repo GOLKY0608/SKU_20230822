@@ -1,0 +1,17 @@
+#define _CRT_SECURE_NO_WARNINGS
+#include <stdio.h>
+
+int main(void)
+{
+	long long int rate;
+	long long int krw;
+
+	printf("환율을 입력하십시오: ");
+	scanf("%lld", &rate);
+
+	printf("원화 금액을 입력하십시오: ");
+	scanf("%lld", &krw);
+	printf("원화 %d원은 %f달러입니다.\n", krw, (float)krw / rate);
+
+	return 0;
+}
