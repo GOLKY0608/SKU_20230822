@@ -9,7 +9,6 @@ int main(void)
 
 	result = x + y;
 	printf("%d + %d = %d\n", x, y, result); //덧셈
-
 	result = x - y;
 	printf("%d - %d = %d\n", x, y, result); //뺄셈
 	result = x * y;
